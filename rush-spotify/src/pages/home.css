@@ -1,0 +1,60 @@
+nav {
+    background-color: #282828; /* Couleur de fond similaire à Spotify */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff; /* Couleur du texte similaire à Spotify */
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: color 0.3s ease; /* Transition en douceur pour le changement de couleur */
+  }
+  
+  nav a:hover {
+    color: #1db954; /* Couleur de mise en surbrillance similaire à Spotify */
+  }
+body{
+    background-color: #191414; /* Couleur de fond similaire à Spotify */
+    height: 100%;
+}
+  .display {
+    padding: 20px;
+    background-color: #191414; /* Couleur de fond similaire à Spotify */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    background-color: #282828;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    align-items: center;
+    width: 50%;
+    margin-left: 20%;
+
+  }
+  
+  .cover {
+    width: 100px;
+    height: auto;
+    margin-left: auto;
+  }
+  
+  .Chargement {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; 
+  }
+  
