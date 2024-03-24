@@ -7,10 +7,11 @@ import Albums from './components/albums/albums.js'
 import AlbumsDetails from './components/albums/albumsDetails.js'
 import Artists from './components/artists/artists.js'
 import ArtistsDetails from './components/artists/artistsDetails.js'
-// import Genres from './components/genres/genres.js'
-// import GenresDetails from './components/genres/genresDetails.js'
+import Genres from './components/genres/genres.js'
+import GenresDetails from './components/genres/genresDetails.js'
 import Random  from './pages/home.js'
-import Header from './components/header'
+import Header from './components/header/index.jsx'
+import ArtistDetails from './components/artists/artistDetails.js'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,6 +21,7 @@ root.render(
       <Routes>
       <Route path="/" element={<Random />} />
         <Route path="/artists" element={<Artists />} />
+        <Route path="/artists/:id" element={<ArtistDetails />} />
         <Route path="/genres" element={<Genres />} />
         <Route path="/albums" element={<Albums />} />
       </Routes>
